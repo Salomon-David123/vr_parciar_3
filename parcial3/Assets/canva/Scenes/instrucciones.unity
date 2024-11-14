@@ -1295,7 +1295,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   clipboard: {fileID: 2013698886}
-  ObjetivoE: "\u2714"
+  ObjetivoE: X
 --- !u!1 &1889838057
 GameObject:
   m_ObjectHideFlags: 0
