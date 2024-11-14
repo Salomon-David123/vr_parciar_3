@@ -3,7 +3,7 @@ using TMPro;
 
 public class InstructionUpdater : MonoBehaviour
 {
-    public TextMeshProUGUI instructionText; // Vincula aquí el componente TextMeshProUGUI
+    public TextMeshProUGUI instructionText; 
 
     public void UpdateInstructions(string newInstructions)
     {
