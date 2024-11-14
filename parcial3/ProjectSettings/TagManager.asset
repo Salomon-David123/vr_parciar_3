@@ -8,6 +8,10 @@ TagManager:
   - Bala
   - fantasma
   - Hacha
+  - FxTemporaire
+  - Extintor
+  - Dummy
+  - Fuego
   layers:
   - Default
   - TransparentFX
