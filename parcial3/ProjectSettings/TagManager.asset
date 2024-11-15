@@ -12,6 +12,8 @@ TagManager:
   - Extintor
   - Dummy
   - Fuego
+  - hacha2
+  - extintor
   layers:
   - Default
   - TransparentFX
