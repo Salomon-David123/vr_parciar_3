@@ -12,6 +12,7 @@ TagManager:
   - Extintor
   - Dummy
   - Fuego
+  - MAR
   layers:
   - Default
   - TransparentFX
