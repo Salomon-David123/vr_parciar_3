@@ -5,12 +5,27 @@ EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
   m_Scenes:
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TallerTercerCortePart2.unity
     guid: 7b5c8e42805c41e4f96767bc12f54a8f
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/TallerTercerCorte.unity
     guid: e669715fc8c2c3c42ae224faed364523
+  - enabled: 1
+    path: Assets/Scenes/TercerParcial.unity
+    guid: b962ff7efbdfaec428560624b4f81aa7
+  - enabled: 1
+    path: Assets/Scenes/TercerParcialPt2.unity
+    guid: dcdde66fa3b646444a79dacefc4857b5
+  - enabled: 1
+    path: Assets/Scenes/GameWin.unity
+    guid: 37d8e3035fd28434d97106b1578837bd
+  - enabled: 1
+    path: Assets/Scenes/GameOver.unity
+    guid: 87552691e76396244b85cb6fd1a7c8e3
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 7a580bbaca488de4d95d94fbe3c7bae1
   m_configObjects:
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: d255e08c65f2c064383dfe41dd06652e, type: 2}
     com.unity.xr.openxr.settings4: {fileID: 11400000, guid: efa2eb8cc37b24642a24eee16742440c, type: 2}
