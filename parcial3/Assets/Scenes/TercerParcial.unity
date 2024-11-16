@@ -22550,6 +22550,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego (4)
       objectReference: {fileID: 0}
+    - target: {fileID: 6222453664976573301, guid: 45fef149fde575b4591e06d163816af0, type: 3}
+      propertyPath: objetivoEUpdater
+      value: 
+      objectReference: {fileID: 680579388}
     - target: {fileID: 6971869236385743058, guid: 45fef149fde575b4591e06d163816af0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.037003
@@ -26412,6 +26416,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 6222453664976573301, guid: 45fef149fde575b4591e06d163816af0, type: 3}
+      propertyPath: objetivoEUpdater
+      value: 
+      objectReference: {fileID: 680579388}
     - target: {fileID: 6971869236385743058, guid: 45fef149fde575b4591e06d163816af0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 29.526999
@@ -33504,6 +33512,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego (5)
       objectReference: {fileID: 0}
+    - target: {fileID: 6222453664976573301, guid: 45fef149fde575b4591e06d163816af0, type: 3}
+      propertyPath: objetivoEUpdater
+      value: 
+      objectReference: {fileID: 680579388}
     - target: {fileID: 6971869236385743058, guid: 45fef149fde575b4591e06d163816af0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.79
@@ -34111,7 +34123,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6ec8283697d92348937bb18f69a3d4b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  clipboard: {fileID: 0}
+  clipboard: {fileID: 680579393}
   objetivo: Tomar el hacha y romper una puerta
 --- !u!1001 &1283547434
 PrefabInstance:
@@ -36784,6 +36796,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego
       objectReference: {fileID: 0}
+    - target: {fileID: 6222453664976573301, guid: 45fef149fde575b4591e06d163816af0, type: 3}
+      propertyPath: objetivoEUpdater
+      value: 
+      objectReference: {fileID: 680579388}
     - target: {fileID: 6971869236385743058, guid: 45fef149fde575b4591e06d163816af0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 28.364002
@@ -53858,6 +53874,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Fuego (3)
       objectReference: {fileID: 0}
+    - target: {fileID: 6222453664976573301, guid: 45fef149fde575b4591e06d163816af0, type: 3}
+      propertyPath: objetivoEUpdater
+      value: 
+      objectReference: {fileID: 680579388}
     - target: {fileID: 6971869236385743058, guid: 45fef149fde575b4591e06d163816af0, type: 3}
       propertyPath: m_LocalPosition.x
       value: 27.037003
