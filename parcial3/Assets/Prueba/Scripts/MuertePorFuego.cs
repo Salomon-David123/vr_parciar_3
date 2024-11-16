@@ -11,6 +11,7 @@ public class MuertePorFuego : MonoBehaviour
         // Verifica si el objeto que entra en el trigger tiene el tag "Player" (puedes cambiarlo al tag que desees)
         if (other.CompareTag("Player"))
         {
+            Debug.Log("entro");
             ChangeScene();
         }
     }
