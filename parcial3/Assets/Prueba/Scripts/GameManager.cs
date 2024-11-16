@@ -1,15 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using UnityEngine.UI;
 using UnityEngine.SceneManagement;
+using TMPro; // Importa la librería de TextMeshPro
 
 public class GameManager : MonoBehaviour
 {
     public float dummys;
-    public Text cronometroText; // Referencia al texto en el Canvas
-    public Text dummysText; // Referencia al texto que muestra los dummys
-    public Text resultadoText; // Referencia al texto que muestra el mensaje de aprobación o reprobación
+    public TextMeshProUGUI cronometroText; // Referencia al texto en el Canvas
+    public TextMeshProUGUI dummysText; // Referencia al texto que muestra los dummys
+    public TextMeshProUGUI resultadoText; // Referencia al texto que muestra el mensaje de aprobación o reprobación
     public string sceneName; // Nombre de la escena a la que se cambiará
     public string sceneName2;
 
@@ -144,9 +144,9 @@ public class GameManager : MonoBehaviour
         yield return null; // Espera un frame para asegurarte de que la escena haya cargado
 
         // Busca los textos en la nueva escena
-        cronometroText = GameObject.Find("CronometroText")?.GetComponent<Text>();
-        dummysText = GameObject.Find("DummysText")?.GetComponent<Text>();
-        resultadoText = GameObject.Find("ResultadoText")?.GetComponent<Text>();
+        cronometroText = GameObject.Find("CronometroText")?.GetComponent<TextMeshProUGUI>();
+        dummysText = GameObject.Find("DummysText")?.GetComponent<TextMeshProUGUI>();
+        resultadoText = GameObject.Find("ResultadoText")?.GetComponent<TextMeshProUGUI>();
 
         // Actualiza los textos con los valores actuales
         if (cronometroText != null)
