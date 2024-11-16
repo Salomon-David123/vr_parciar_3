@@ -7398,6 +7398,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1281745293}
+  - {fileID: 1279682393}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &286171917
@@ -23189,18 +23190,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
       propertyPath: m_Name
-      value: untitled (2)
+      value: Puerta1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 973192892}
   m_SourcePrefab: {fileID: 100100000, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
 --- !u!4 &973192890 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 140579449095626778, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
   m_PrefabInstance: {fileID: 973192889}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &973192891 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
+  m_PrefabInstance: {fileID: 973192889}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &973192892
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 973192891}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a93d5467dc54ae4bb24bf0021dd5f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 680579388}
+  ObjetivoE: X
 --- !u!1001 &973648782
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24346,18 +24369,40 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
       propertyPath: m_Name
-      value: untitled (3)
+      value: Puerta2
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1013993607}
   m_SourcePrefab: {fileID: 100100000, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
 --- !u!4 &1013993605 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 140579449095626778, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
   m_PrefabInstance: {fileID: 1013993604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1013993606 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 772544284529326752, guid: 9a6556d2ac5e8d74cbb1d4190159c800, type: 3}
+  m_PrefabInstance: {fileID: 1013993604}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1013993607
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1013993606}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a93d5467dc54ae4bb24bf0021dd5f38, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 680579388}
+  ObjetivoE: X
 --- !u!1001 &1016963621
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -33886,6 +33931,104 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -6447266317303757838, guid: c348712bda248c246b8c49b3db54643f, type: 3}
   m_ButtonPressPoint: 0.5
+--- !u!1 &1279682392
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1279682393}
+  - component: {fileID: 1279682394}
+  - component: {fileID: 1279682396}
+  - component: {fileID: 1279682395}
+  - component: {fileID: 1279682397}
+  m_Layer: 0
+  m_Name: Extintor
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1279682393
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279682392}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 6.02, y: 0, z: 6.45}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 285661803}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1279682394
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279682392}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 2.385231, y: 1.7479305, z: 2.2726288}
+  m_Center: {x: 0.9764595, y: -0.37396526, z: -0.058494568}
+--- !u!114 &1279682395
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279682392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ec8283697d92348937bb18f69a3d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 680579393}
+  objetivo: Apagar uno de los barriles en llamas
+--- !u!114 &1279682396
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279682392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 610bb51c78223de4dbc56cf12e1b407a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 680579389}
+  instructions: Toma el extintor y apaga minimo uno de los incendios
+--- !u!114 &1279682397
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1279682392}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c00f4e42ea0a0ea4ba1ce861e89f88a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 680579388}
+  ObjetivoE: "\u25A1"
 --- !u!1 &1281745292
 GameObject:
   m_ObjectHideFlags: 0
@@ -38572,10 +38715,10 @@ BoxCollider:
   m_LayerOverridePriority: 0
   m_IsTrigger: 1
   m_ProvidesContacts: 0
-  m_Enabled: 0
+  m_Enabled: 1
   serializedVersion: 3
-  m_Size: {x: 5.6017385, y: 0.66938907, z: 2.5229747}
-  m_Center: {x: -0.27938157, y: -0.00000003123161, z: 6.156585}
+  m_Size: {x: 5.9416127, y: 0.66938907, z: 2.5229685}
+  m_Center: {x: -0.10943375, y: 0.00000078528274, z: 6.1566415}
 --- !u!65 &1507281507
 BoxCollider:
   m_ObjectHideFlags: 0
