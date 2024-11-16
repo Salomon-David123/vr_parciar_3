@@ -1225,6 +1225,7 @@ GameObject:
   - component: {fileID: 1881854703}
   - component: {fileID: 1881854704}
   - component: {fileID: 1881854705}
+  - component: {fileID: 1881854706}
   m_Layer: 0
   m_Name: trigger1
   m_TagString: Untagged
@@ -1296,6 +1297,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   clipboard: {fileID: 2013698886}
   ObjetivoE: X
+--- !u!114 &1881854706
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1881854701}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a6ec8283697d92348937bb18f69a3d4b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  clipboard: {fileID: 2013698887}
+  objetivo: Chupame las bolas
 --- !u!1 &1889838057
 GameObject:
   m_ObjectHideFlags: 0
@@ -1444,6 +1459,7 @@ GameObject:
   - component: {fileID: 2013698881}
   - component: {fileID: 2013698885}
   - component: {fileID: 2013698886}
+  - component: {fileID: 2013698887}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1563,6 +1579,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   ObjetivoEText: {fileID: 1864932702}
+--- !u!114 &2013698887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2013698880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86ea1e7fb5b3b22478bdc7bb383d4857, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objetivoText: {fileID: 1219339046}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
